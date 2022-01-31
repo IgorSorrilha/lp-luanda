@@ -1,0 +1,811 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.padding-off{
+    padding: 0
+}
+
+.navbar>.container .navbar-brand {
+    margin-left: 0px;
+}
+
+.navbar-luanda{
+    background-color: transparent;
+    border-color: transparent;
+    position: fixed;
+    -webkit-transition: 400ms all;
+    transition: 400ms all;
+}
+
+.navbar-luanda .navbar-brand{
+    height: 100%;
+    padding: 43px 0px;
+    
+}
+
+.navbar-luanda .navbar-nav>li>a:focus, .navbar-luanda .navbar-nav>li>a:hover {
+    color: #333;
+    background-color: #f5a638;
+    transition: 400ms all;
+    border-radius: 13px;
+}
+
+.menu-luanda .social-media {
+    width: 97%;
+    margin-left: 10px;
+    padding-top: 45px;
+}
+
+.menu-luanda .social-media a {
+    width: 28px;
+    height: 27px;
+    float: right;
+    margin-left: 5px;
+}
+
+.menu-luanda .social-media .youtube {
+    background: url(../images/youtube.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.menu-luanda .social-media .youtube:hover {
+    background: url('../images/youtube-hover.png');
+    transition: 400ms all;
+}
+
+.menu-luanda .social-media .linkedin {
+    background: url(../images/linkedin.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.menu-luanda .social-media .linkedin:hover {
+    background: url('../images/linkedin-hover.png');
+    transition: 400ms all;
+}
+
+.menu-luanda .social-media .facebook {
+    background: url(../images/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.menu-luanda .social-media .facebook:hover {
+    background: url('../images/facebook-hover.png');
+    transition: 400ms all;
+}
+
+.menu-luanda .social-media .instagram {
+    background: url(../images/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.menu-luanda .social-media .instagram:hover {
+    background: url('../images/instagram-hover.png');
+    transition: 400ms all;
+}
+
+.navbar-luanda .navbar-right {
+    float: right!important;
+    margin-right: -5px;
+}
+
+.navbar-luanda .navbar-nav>li>a {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 5px;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.items-menu {
+    margin-top: 8px;
+}
+
+#circulo{
+    border-radius: 50%;
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    background-color: #f14e4e;
+}
+
+.busca{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+    margin-top: 10px;
+    -webkit-transition: 400ms all;
+    transition: 400ms all;
+}
+
+.busca input{
+    width: 240px;
+    height: 30px;
+    background: #f14e4e;
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+    padding-left: 10px;
+}
+
+.busca input:focus{
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.busca ::placeholder{
+    padding-left: 7px;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.busca input:focus::placeholder{
+    color: transparent;
+}
+
+#icone-busca{
+    background-image: url(../images/icone-busca.png);
+    background-repeat: no-repeat;
+    background-position: 210px;
+    background-size: 22px 17px;
+}
+
+.busca-txt{
+    outline: none;
+    color: white;
+}
+
+.search-txt {
+    border:none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.float-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    z-index: 999;
+    bottom: 40%;
+  }
+  
+.float-box a {
+    width: 95px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0);
+    -webkit-transition: width 400ms, color 800ms;
+    transition: width 400ms, color 800ms;
+    height: 70px;
+    line-height: 27px;
+    display: block;
+    margin-bottom: 2px;
+    padding: 0 0;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 20px;
+  }
+
+.float-box a:hover {
+    width: 220px;
+    color: white;
+}
+  
+.float-box .mail {
+    background: url(../images/float-mail.png) no-repeat right 28px center;
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #f5a638;
+    border-top: 2px solid #f14e4e;
+    border-bottom: 2px solid #f14e4e;
+    border-left: 2px solid #f14e4e;
+    box-shadow: 0px 1px 10px black;
+  }
+  
+.float-box .whats {
+    background: url(../images/float-whats.png) no-repeat right 14px center;
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #f5a638;
+    border-top: 2px solid #f14e4e;
+    border-left: 2px solid #f14e4e;
+    box-shadow: 0px 0px 10px black;
+    }
+
+
+.bg-img {
+    background: url('../images/img-home.png') no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+    height: 1080px;
+}
+
+.form-box {
+    width: 479px;
+    height: 443px;
+    background-color: #e9e9e9e0;
+    border-radius: 20px;
+    position: absolute;
+    top: 32%;
+    right: 49%;
+    z-index: 100;
+    font-size: 15px;
+}
+
+.form-box .form {
+    padding-left: 25px;
+}
+
+.form-box legend{
+    margin: 0px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: 2px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.form-box .input-box {
+    margin-top: 10px;
+}
+
+.form-box .input-dentro{
+    background-color: #c2c2c2;
+    border: none;
+    border-radius: 18px;
+    width: 95%;
+    height: 40px;
+    outline: none;
+    padding-left: 15px;
+}
+
+.form-box .input-dentro::placeholder{
+    color: #595959;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.form-box .input-dentro:focus{
+    border: none;
+}
+
+.form-box .checkbox-div{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.form-box .checkbox-estilo label{
+    font-weight: 400;
+}
+
+.form-box .checkbox-estilo input{
+    display:none;
+  }
+  
+.form-box .checkbox-estilo input + label:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    display: inline-block;
+    border: 1px solid #898989;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-bottom: 3px;
+}
+   
+.checkbox-estilo input:checked + label:before {
+     background-color: #818181;
+}
+
+.form-box #aceitar-info{
+    font-size: 13px;
+    padding: 15px;
+    color: black;
+}
+
+.form-box .enviar {
+    float: right;
+    margin-right: 30px;
+}
+
+.form-box .enviar .btn-enviar{
+    background-color: #f14e4e;
+    border: none;
+    color: white;
+    background-image: url(../images/seta-enviar.svg);
+    background-repeat: no-repeat;
+    width: 172px;
+    height: 47px;
+    border-radius: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-right: 45px;
+    padding-top: 2px;
+    background-position: 90% 50%;
+}
+
+.form-box .enviar .btn-enviar:hover{
+    background-color: #b33e3e;
+    transition: 400ms all;
+}
+
+.img-homem {
+    position: absolute;
+    z-index: 100;
+    top: 13%;
+    left: 50%;
+    height: 87%;
+}
+
+.produto1{
+    background: url('../images/produto1.png') no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+    height: 1080px;
+}
+
+.produto1 .texto1{
+    padding-top: 35px;
+}
+
+.produto1 .texto1 strong{
+    font-weight: 800;
+}
+
+.produto1 .texto1 p{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 25px;
+    color: black;
+}
+
+.produto1 .texto2{
+    position: absolute;
+    bottom: 15%;
+    background-color: #000000bf;
+    height: 73px;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.produto1 .texto2 p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+
+    .navbar-default .navbar-toggle {
+        border-color: #ddd;
+        background-color: #f5a638;
+        margin-top: 20px;
+    }
+    
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+
+    .navbar-default .navbar-toggle:focus, 
+    .navbar-default .navbar-toggle:hover {
+        background-color: #f14e4e;
+    }
+    
+    .navbar-luanda{
+        background-color: rgb(255 255 255 / 80%);
+    }
+    
+    .navbar-luanda .navbar-collapse {
+        border: none;
+        background-color: transparent;
+        margin-top: 5px;
+    }
+
+    .navbar-luanda .navbar-nav>li>a:focus, .navbar-luanda .navbar-nav>li>a:hover {
+        background-color: #f14e4e;
+        transition: 400ms all;
+        border-radius: 15px;
+        width: fit-content;
+    }
+    
+    .navbar>.container .navbar-brand {
+        margin-left: 10px;
+    }
+    
+    .navbar-luanda .navbar-brand {
+        width: 35%;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+
+    .navbar-luanda .navbar-right {
+        float: left!important;
+        margin-right: -5px;
+    }
+
+    .float-box .whats {
+        background: url(../images/float-whats.png) no-repeat right 3px center;
+        background-color: #f5a638;
+    }
+    
+    .float-box .mail {
+        background: url(../images/float-mail.png) no-repeat right 15px center;
+        background-color: #f5a638;
+    }
+    
+    .float-box a {
+        width: 70px;
+        height: 65px;
+    }
+    
+    .bg-img{
+        background-image: url('../images/img-home-mobile.png');
+        height: 669px;
+    }
+
+    .form-box {
+        width: 45.5%;
+        height: 340px;
+        top: 30%;
+        right: 54%;
+        font-size: 80%
+    }
+
+    .form-box .form {
+        padding-left: 9px;
+    }
+    
+    .form-box legend {
+        font-size: 11px;
+        letter-spacing: 0px;
+        text-align: center;
+        padding-right: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .form-box .input-dentro {
+        height: 20px;
+        padding-left: 5px;
+    }
+    
+    .form-box .input-dentro::placeholder {
+        font-size: 11px;
+    }
+
+    .form-box .checkbox-div {
+        margin-top: 12px;
+        margin-left: 10px;
+    }
+    
+    .form-box .checkbox-estilo input + label:before {
+        width: 12px;
+        height: 13px;
+        margin-right: 7px;
+        margin-bottom: 3px;
+    }
+    
+    .form-box #aceitar-info {
+        font-size: 10px;
+        padding: 15px 15px 0 0;
+        text-align: center;
+    }
+
+    .form-box .enviar {
+        position: absolute;
+        right: 2%;
+        top: 95%;
+    }
+    
+    .form-box .enviar .btn-enviar {
+        width: 95px;
+        height: 30px;
+        padding-right: 35px;
+    }
+    
+    .img-homem {
+        content: url('../images/homem-mobile.png');
+        width: 78%;
+        top: 23%;
+        left: 22%;
+        height: 78%;
+        position: absolute;
+        z-index: 99;
+    }
+    
+    .produto1{
+        background-image: url('../images/produto1-mobile.png');
+        height: 768px;
+    }
+
+    .produto1 .texto1 {
+        padding-top: 60px;
+    }
+    
+    .produto1 .texto1 p{
+        font-size: 19px;
+        line-height: 23px;
+    }
+    
+    .produto1 .texto2 {
+        padding-top: 6px;
+    }
+    
+    .produto1 .texto2 p{
+        font-size: 11px;
+        margin-bottom: 0px;
+        line-height: 20px;
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {
+
+    .navbar-header {
+        float: left;
+        width: 273px;
+    }
+    
+    .navbar-brand{
+        width: 80%;
+        -webkit-transition: 400ms all;
+        transition: 400ms all;
+    }
+    
+    .navbar-luanda .navbar-nav>li>a {
+        font-size: 13px;
+    }
+    
+    .navbar-luanda .menu-luanda {
+        display: flex!important;
+        flex-direction: column;
+        float: right;
+        margin-right: 5px;
+        -webkit-transition: 400ms all;
+        transition: 400ms all;
+    }
+
+    .navbar-luanda.scroll{
+        background-color:rgb(255 255 255 / 80%);
+      }
+
+    .navbar-luanda.scroll .navbar-brand{
+        width: 70%;
+        margin-left: 15px;
+        padding-top: 2px;
+        padding-bottom: 5px;
+    }
+    
+    .navbar-luanda.scroll .menu-luanda{
+        margin-right: 7px;
+    }
+    
+    .navbar-luanda.scroll .menu-luanda .social-media {
+        padding-top: 10px;
+    }
+
+    .navbar-luanda.scroll .menu-luanda ul li a {
+        font-size: 13px;
+    }
+
+    .navbar-luanda.scroll .busca{
+        display:none;
+    }
+
+    .social-media a{
+        width: 25px;;
+    }
+    
+    .busca input {
+        height: 24px;
+        -webkit-transition: 400ms all;
+        transition: 400ms all;
+    }
+    
+    .form-box {
+        width: 325px;
+        height: 410px;
+        top: 38%;
+        right: 45%;
+        font-size: 100%;
+    }
+
+    .form-box .form {
+        padding-left: 15px;
+    }
+    
+    .form-box legend {
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+    
+    .form-box .input-dentro {
+        height: 35px;
+    }
+    
+    .form-box .input-dentro::placeholder {
+        font-size: 14px;
+    }
+
+    .form-box .checkbox-estilo input + label:before {
+        width: 14px;
+        height: 15px;
+        margin-right: 7px;
+        margin-bottom: 3px;
+    }
+    
+    .form-box #aceitar-info {
+        font-size: 13px;
+        padding: 25px 0 0 10px;
+        margin-bottom: 15px;
+    }
+
+    .form-box .enviar .btn-enviar {
+        width: 115px;
+        height: 49px;
+        padding-right: 32px;
+    }
+    
+    .img-homem {
+        top: 24%;
+        left: 52%;
+        height: 76%;
+        width: 48%;
+    }
+
+    .produto1 .texto2 p{
+        font-size: 16px;
+    }
+
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+    
+    .navbar-brand{
+        width: 80%;
+        padding: 43px 10px;
+        
+    }
+    
+    .navbar-luanda .menu-luanda {
+        display: flex!important;
+        flex-direction: column;
+        float: right;
+        -webkit-transition: 400ms all;
+        transition: 400ms all;
+    }
+
+    .navbar-luanda.scroll{
+        background-color:rgb(255 255 255 / 80%);
+      }
+
+    .navbar-luanda.scroll .navbar-brand{
+        width: 35%;
+        margin-left: 80px;
+        padding-top: 2px;
+        padding-bottom: 5px;
+    }
+    
+    .navbar-luanda.scroll .menu-luanda{
+        margin-right: 49px;
+    }
+    
+    .navbar-luanda.scroll .menu-luanda .social-media {
+        padding-top: 10px;
+    }
+
+    .navbar-luanda.scroll .menu-luanda ul li a {
+        font-size: 13px;
+    }
+
+    .navbar-luanda.scroll .busca{
+        display:none;
+    }
+    
+    .busca{
+        padding-right: 10px;
+        -webkit-transition: 400ms all;
+        transition: 400ms all;
+    }
+    
+    .form-box {
+        width: 365px;
+        height: 450px;
+        right: 52%;
+    }
+    
+    .form-box legend{
+        font-size: 19px;
+        text-align: center;
+        margin-left: -12px;
+    }
+
+    .form-box #aceitar-info {
+        padding: 6px 0 5px 20px;
+    }
+    
+    .img-homem {
+        left: 46%;
+        height: 82%;
+        top: 18%
+    }
+    
+}
+
+/* Large */
+@media(min-width:1200px) { 
+    
+    .navbar-luanda .navbar-brand{
+        height: 100%;
+        padding: 43px 0px;
+        -webkit-transition: 400ms all;
+        transition: 400ms all;
+    }
+
+    .navbar-luanda .menu-luanda {
+        display: flex!important;
+        flex-direction: column;
+        float: right;
+        -webkit-transition: 400ms all;
+        transition: 400ms all;
+    }
+
+    .navbar-luanda.scroll{
+        background-color:rgb(255 255 255 / 80%);
+      }
+
+    .navbar-luanda.scroll .navbar-brand{
+        width: 35%;
+        margin-left: 155px;
+        padding-top: 2px;
+        padding-bottom: 5px;
+    }
+    
+    .navbar-luanda.scroll .menu-luanda{
+        margin-right: 45px;
+    }
+    
+    .navbar-luanda.scroll .menu-luanda .social-media {
+        padding-top: 20px;
+    }
+
+    .navbar-luanda.scroll .menu-luanda ul li a {
+        font-size: 13px;
+    }
+
+    .navbar-luanda.scroll .busca{
+        display:none;
+    }
+
+}
