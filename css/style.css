@@ -510,6 +510,22 @@ strong{
     margin-bottom: 30px;
 }
 
+.planta{
+    background-color: #f14e4e;
+    width: 100%;
+    position: relative
+}
+
+.planta .img-planta{
+    margin-top: -2.7%;
+    
+}
+
+.planta .ampliar {
+    width: 12.3%;
+    margin-top: -17%;
+    display: inline-block;
+}
 
 /* Extra Small */
 @media(max-width:767px) {
@@ -969,5 +985,9 @@ strong{
 
     .navbar-luanda.scroll .busca{
         display:none;
+    }
+
+    .planta .img-planta {
+        margin-top: -33px;
     }
 }
