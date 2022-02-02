@@ -1,5 +1,10 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+strong{
+    font-weight: 800;
 }
 
 .padding-off{
@@ -380,6 +385,10 @@ body{
     font-weight: 800;
 }
 
+.produto1 .texto2 sup{
+    top: -0.9em;
+}
+
 .produto1 .texto1 p{
     font-size: 30px;
     font-weight: 500;
@@ -489,6 +498,18 @@ body{
 .carrossel-div .texto-carrossel strong{
     font-weight: 800;
 }
+
+.infos{
+    padding-top: 50px;
+    margin-bottom: 5%;
+}
+
+.infos p{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
 
 /* Extra Small */
 @media(max-width:767px) {
@@ -687,7 +708,20 @@ body{
     .carrossel-div .texto-carrossel p {
         font-size: 11px;
     }
+
+    .infos {
+        padding-top: 20px;
+    }
     
+    .infos .box-info {
+        margin-bottom: 15px;
+        padding: 0 15px 0 15px;
+    }
+
+    .infos p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
 }
 
 /* Small */
@@ -817,6 +851,11 @@ body{
         font-size: 16px;
     }
 
+    .infos .box-info {
+        margin-left: 0px;
+        margin-bottom: 25px;
+    }
+    
 }
 
 /* Medium */
@@ -894,6 +933,10 @@ body{
     .video-div .container:nth-child(2) {
         top: 35%;
     }
+
+    .infos .box-info {
+        margin-left: 30px;
+    }
     
 }
 
@@ -940,6 +983,10 @@ body{
 
     .navbar-luanda.scroll .busca{
         display:none;
+    }
+
+    .infos .box-info {
+        margin-left: 30px;
     }
 
 }
