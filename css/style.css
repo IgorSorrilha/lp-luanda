@@ -562,18 +562,18 @@ strong{
     }
 
     .float-box .whats {
-        background: url(../images/float-whats.png) no-repeat right 3px center;
+        background: url(../images/float-whats-mobile.png) no-repeat right 4px center;
         background-color: #f5a638;
     }
     
     .float-box .mail {
-        background: url(../images/float-mail.png) no-repeat right 15px center;
+        background: url(../images/float-mail-mobile.png) no-repeat right 15px center;
         background-color: #f5a638;
     }
     
     .float-box a {
-        width: 70px;
-        height: 65px;
+        width: 65px;
+        height: 40px;
     }
     
     .bg-img{
@@ -713,11 +713,6 @@ strong{
         padding-top: 20px;
     }
     
-    .infos .box-info {
-        margin-bottom: 15px;
-        padding: 0 15px 0 15px;
-    }
-
     .infos p {
         font-size: 12px;
         margin-bottom: 20px;
@@ -851,11 +846,6 @@ strong{
         font-size: 16px;
     }
 
-    .infos .box-info {
-        margin-left: 0px;
-        margin-bottom: 25px;
-    }
-    
 }
 
 /* Medium */
@@ -934,10 +924,6 @@ strong{
         top: 35%;
     }
 
-    .infos .box-info {
-        margin-left: 30px;
-    }
-    
 }
 
 /* Large */
@@ -984,9 +970,4 @@ strong{
     .navbar-luanda.scroll .busca{
         display:none;
     }
-
-    .infos .box-info {
-        margin-left: 30px;
-    }
-
 }
