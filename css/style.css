@@ -536,6 +536,31 @@ strong{
     margin-top: 25px;
 }
 
+.endereco {
+    background-color: #828282;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.endereco p{
+    color: #444444;
+    font-size: 27px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.rodape {
+    background: linear-gradient(180deg, #f5a638 65%, #f14e4e 35%);
+    height: 80px;
+    padding-top: 15px;
+}
+
+.rodape p {
+    color: #f14e4e;
+    font-weight: 600;
+}
+
 /* Extra Small */
 @media(max-width:767px) {
 
@@ -756,6 +781,27 @@ strong{
         font-size: 12px;
         margin-top: 20px;
     }
+
+    .endereco {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .endereco p {
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0;
+    }
+
+    .rodape {
+        height: 45px;
+        padding-top: 10px;
+    }
+    
+    .rodape p{
+        font-size: 9px;
+    }
+
 }
 
 /* Small */
@@ -873,12 +919,20 @@ strong{
         width: 48%;
     }
 
+    .produto1 .texto1 p {
+        font-size: 25px;
+    }
+    
     .produto1 .texto2 p{
         font-size: 16px;
     }
 
     .video-div .container:nth-child(2) {
         top: 35%;
+    }
+
+    .video-div .video-texto p {
+        font-size: 25px;
     }
 
     .carrossel-div .texto-carrossel p {
@@ -893,6 +947,13 @@ strong{
         font-size: 17px;
     }
 
+    .endereco p {
+        font-size: 17px;
+    }
+
+    .rodape p{
+        font-size: 12px;
+    }
 }
 
 /* Medium */
@@ -973,6 +1034,18 @@ strong{
 
     .afrincorp p {
         font-size: 23px;
+    }
+
+    .endereco p {
+        font-size: 22px;
+    }
+
+    .rodape {
+        padding-top: 18px;
+    }
+    
+    .rodape p{
+        font-size: 12px;
     }
 
 }
