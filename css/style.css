@@ -518,13 +518,22 @@ strong{
 
 .planta .img-planta{
     margin-top: -2.7%;
-    
 }
 
 .planta .ampliar {
     width: 12.3%;
     margin-top: -17%;
     display: inline-block;
+}
+
+.afrincorp {
+    padding-top: 45px;
+    margin-bottom: 2%;
+}
+
+.afrincorp p {
+    font-size: 25px;
+    margin-top: 25px;
 }
 
 /* Extra Small */
@@ -676,7 +685,7 @@ strong{
     }
     
     .produto1 .texto1 p{
-        font-size: 19px;
+        font-size: 14px;
         line-height: 23px;
     }
     
@@ -732,6 +741,20 @@ strong{
     .infos p {
         font-size: 12px;
         margin-bottom: 20px;
+    }
+
+    .afrincorp {
+        padding-top: 30px;
+        margin-bottom: 3%;
+    }
+    
+    .afrincorp img {
+        width: 45%;
+    }
+    
+    .afrincorp p {
+        font-size: 12px;
+        margin-top: 20px;
     }
 }
 
@@ -862,6 +885,14 @@ strong{
         font-size: 16px;
     }
 
+    .afrincorp img{
+        width: 37%;
+    }
+    
+    .afrincorp p {
+        font-size: 17px;
+    }
+
 }
 
 /* Medium */
@@ -938,6 +969,10 @@ strong{
 
     .video-div .container:nth-child(2) {
         top: 35%;
+    }
+
+    .afrincorp p {
+        font-size: 23px;
     }
 
 }
